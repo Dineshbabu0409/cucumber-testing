@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="604.003455">
+    <testcase classname="As a User, I want to Order the food" name="The user gives the invalid user name  and password" time="69.488867">
+        <system-out><![CDATA[Given The user launch the chrome browser and maximize window................passed
+When The user launch the url of the Bisto bites.............................passed
+And The user click the account button.......................................passed
+And The user give the Invalid user name.....................................passed
+And The user give the Invalid password......................................passed
+And The user click the login button.........................................passed
+And The user check whether navigate to the home page or not.................passed
+Then The user close the browser.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="To User successfully add the Dosa" time="113.334976">
+        <system-out><![CDATA[Given To user Enter the browser and maximazie...............................passed
+When To user launch the url.................................................passed
+And To user click the Home button...........................................passed
+And To user dropdown the Dosa label.........................................passed
+And To user click the dosa button...........................................passed
+And To user select the Masala Dosa..........................................passed
+And To user check the Available Time........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The user fills out the registration form and ignores the confirm password" time="123.064931">
+        <system-out><![CDATA[Given As a User Enter the browser and maximazie.............................passed
+When As a Userlaunch the url................................................passed
+And As a Userclick the account button.......................................passed
+And As a user give a the Name...............................................passed
+And As s user give a mail...................................................passed
+And As a user give a number.................................................passed
+And As a user give a password...............................................passed
+And As a User click the register button.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The User search the coke can and check the price" time="119.081601">
+        <system-out><![CDATA[Given He Enter the browser and maximazie....................................passed
+When He launch the url......................................................passed
+And He click the search icon................................................passed
+And He Search coke can......................................................passed
+And He select the coke can..................................................passed
+And He check the can dollar.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The user select the Spanish Omelet" time="81.046161">
+        <system-out><![CDATA[Given tester Enter the browser and maximazie................................passed
+When tester  launch the url.................................................passed
+And tester click search icon................................................passed
+And tester search the spanish omelet........................................passed
+And tester  click the Probability...........................................passed
+And tester check the dollar.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The user read Our Story" time="97.986919">
+        <system-out><![CDATA[Given I want to Enter the browser and maximazie.............................passed
+When I want to launch the url...............................................passed
+And I want to click the Story option........................................passed
+And I want to check the spelling mistake....................................passed
+Then I want to close the browser............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
